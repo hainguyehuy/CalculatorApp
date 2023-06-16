@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
-    fun isOperatorAdded(value:String):Boolean{
+    private fun isOperatorAdded(value:String):Boolean{
         return if(value.startsWith("-")){
             false
         }else{
